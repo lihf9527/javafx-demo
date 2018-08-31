@@ -1,0 +1,13 @@
+.root {
+    -fx-background-image: url("background.jpg");
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
